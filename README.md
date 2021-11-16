@@ -23,6 +23,10 @@ The backend consists of the following:
 3. Heroku - CI/CD Integration and Hosting
 4. Production URI - [Link](https://cargo-owners-api.herokuapp.com/)
 
+## Retrospectives
+
+1. Don't implement a separate Backend build and instead integrate the Backend functionality into the Frontend directly
+
 ## Repositories
 
 * Cargo Owners [Frontend](https://github.com/krampus-nuggets/cargo-owners-fe)
