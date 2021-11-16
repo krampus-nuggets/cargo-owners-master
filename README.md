@@ -23,9 +23,10 @@ The backend consists of the following:
 3. Heroku - CI/CD Integration and Hosting
 4. Production URI - [Link](https://cargo-owners-api.herokuapp.com/)
 
-## Retrospectives
+## Retrospectives & Reasoning
 
 1. Don't implement a separate Backend build and instead integrate the Backend functionality into the Frontend directly
+2. The initial idea was to implement a Frontend that mainly managed the visible aspect of the web application and would later integrate into the Web API. The Backend would mainly handle the login authentication, which is setup for both reaching the Dashboard page and being able to access the database functionality via an authorized session. The database handler on the Backend would handle all query & mutation requests to the database and would return the data via the Web API.
 
 ## Repositories
 
